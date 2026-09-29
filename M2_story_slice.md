@@ -1,7 +1,7 @@
 # M2 Story Slice: MyShelf
 
 **Team:** Team 5
-**Team Members:** Maftuna 12236681, [Member 2 (Person B)]  
+**Team Members:** Maftuna 12236681, Nilufar 12244989  
 **Date:** 2026-09-29  
 
 ---
@@ -20,7 +20,7 @@
   Emily is an avid reader who just finished reading a novel and wants to update her personal reading records. She opens MyShelf on her device, searches for the book title via the integrated catalog search, and adds it to her collection. She then moves the book to her "Finished" shelf, instantly updating her visual bookshelf display and personal page-count milestone.
 ---
 
-## 2. Story 1 (S1) — [Person A Lead]
+## 2. Story 1 (S1) — [Writer Lead]
 
 * **User Story:**  
   * **As a** recreational reader,  
@@ -42,44 +42,44 @@
 ## 3. Story 2 (S2) — [Person B Lead]
 
 * **User Story:**  
-  * **As a** [role],  
-  * **I want** [action],  
-  * **So that** [reason].
+  * **As a**  recreational reader,  
+  * **I want**  to move a book from my default shelf to my "Finished" shelf,  
+  * **So that** my visual bookshelf and reading progress reflect my current reading status. 
 
 * **Criterion S2-AC1:**  
-  * **Given** [initial context/starting state],  
-  * **When** [action or event occurs],  
-  * **Then** [observable outcome/result].
+  * **Given**  a user has "Little Women" stored in their default "Want to Read" shelf,  
+  * **When**  they select the book options and change its status to "Finished",  
+  * **Then**  the book moves to the "Finished" shelf, and the visual bookshelf instantly updates its position. 
 
 * **Criterion S2-AC2:**  
-  * **Given** [initial context/starting state],  
-  * **When** [action or event occurs],  
-  * **Then** [observable outcome/result].
+  * **Given** a book status is successfully updated to "Finished",  
+  * **When**  the user views their personal dashboard,   
+  * **Then** their total page-count milestone updates to include the page length of the newly finished book.
 
 ---
 
 ## 4. Priorities, Scope & Edge Cases
 
-* **Priority & Rationale:** S1 comes first.
+* **Priority & Rationale:** S1 comes first because a user must search for and add a book to their library before they can manage its shelf status or update milestone metrics.
 * **Alternate / Invalid Case:** [Describe 1 edge case/error condition and its expected outcome, OR record an unresolved rule that needs agreement]
-* **Excluded Capability:** [State 1 capability explicitly excluded from this slice and give a reason why]
+* **Excluded Capability:** Social activity feeds and public user reviews are explicitly excluded from this slice to keep the focus strictly on minimal, private library tracking.
 
 ---
 
 ## 5. Team Review & Submission Verification
 
 ### Checklist
-- [x] Both stories relate to the same stated user task and scenario.
-- [x] Each criterion has a result another person could inspect.
-- [x] Assumptions, agreed draft rules, and open questions are distinguishable.
-- [x] The document describes expected behavior without inventing test results.
+- [✓] Both stories relate to the same stated user task and scenario.
+- [✓] Each criterion has a result another person could inspect.
+- [✓] Assumptions, agreed draft rules, and open questions are distinguishable.
+- [✓] The document describes expected behavior without inventing test results.
 
 ### Review Log
-* **Reviewer Name:** [Reviewer]
-* **Ambiguity Found:** [State 1 specific ambiguity discovered in the criteria wording during peer review]
-* **Change Made:** [Describe the exact change made to fix the ambiguity, or explain why no change was needed]
+* **Reviewer Name:** Nilufar
+* **Ambiguity Found:** Criterion S1-AC2 originally stated "placed in the library" without specifying which default shelf or visual state the book should go upon adding.
+* **Change Made:**  Clarified S1-AC2 to explicitly state that newly added books are placed into the default "Want to Read" shelf and immediately render on the visual display.
 
 ### Verification & AI Usage
 * **Saved Location / Commit:** [Link to file in repo or branch commit details]
-* **Verification Check:** Reopened and verified by [Member Name]
-* **AI Usage:** [State "Not used" OR provide reference to your `AI_USAGE.md` entry]
+* **Verification Check:** Reopened and verified by Maftuna
+* **AI Usage:** See [link]{miscellaneous/AI_USAGE.md}
