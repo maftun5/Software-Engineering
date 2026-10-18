@@ -32,9 +32,3 @@ See the columns:
 | T15 | HTML text in search shown as plain text | Text displayed literally, not interpreted | yes | not executed | <img width="297" height="610" alt="image" src="https://github.com/user-attachments/assets/2248e6d7-1941-425b-bfbc-19b038c0ddd2" />
  |
 
-## Notes
-
-- Checks marked **no** still need to be run by you in a browser. The app
-  provides the controls to run all of them (Demo mode, Simulate API failure,
-  Load 500-page sample).
-- I did not mark any check as passed that I did not actually run.
