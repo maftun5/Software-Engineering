@@ -1,3 +1,0 @@
-/* index.css — minimal globals only.
-   The app's own styles live in App.css. We keep this file so main.jsx's
-   import resolves, but we do not redefine the dark theme here. */
