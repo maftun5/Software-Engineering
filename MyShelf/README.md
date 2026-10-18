@@ -98,7 +98,7 @@ your domain in the Google Cloud Console, and consider it low-trust. See
         └── icons.jsx       # Tiny inline SVG icons (no icon library)
 ```
 
-### File-by-file, for beginners
+### File-by-file
 
 - **`index.html`** — The one HTML file Vite uses. It has an empty `<div id="root">`
   and a script tag that loads `src/main.jsx`. Everything you see is rendered into
